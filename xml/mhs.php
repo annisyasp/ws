@@ -10,7 +10,7 @@
 	$path =($extension=='php') ? NULL : $_SERVER['PATH_INFO'];
 	
 	if($path !=null) {
-	$path_params = spliti ("/", $path);
+	$path_params = explode("/", $path);
 	}
 	//metode request untuk GET
 	
